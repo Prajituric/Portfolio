@@ -9,7 +9,7 @@
       content="A frontend web Developer who specializes in html, css, javascript and other frameworks and technologies"
     />
     <meta name="robots" content="index, follow" />
-    <link rel="icon" href="ins.svg" />
+    <link rel="icon" href="./icons/online-resume.png" />
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../styles/style.css" />
 
@@ -30,14 +30,15 @@
           </nav>
       </header>
       <section class="form-section">
-          <form>
+          <form id="formss" action="https://formspree.io/f/moqrvbje"
+          method="POST">
               <label for="fname">First Name:</label>
               <input type="text" name="name" id="name" required>
               <label for="lname">Last Name:</label>
               <input type="text" name="name" id="name1" required>
               <label for="email">E-mail Adress:</label>
-              <input type="email" name="email" id="email" required>
-              <label for="message">Message</label>
+              <input  name="_replyto" type="email" name="email" id="email" required>
+              <label for="message" name="message">Message</label>
               <textarea name="message" id="message" cols="30" rows="10" required></textarea>
               <button type="submit">Sumbit</button>
             </form>
@@ -49,5 +50,6 @@
             <li><a target="_blank" href="https://www.instagram.com/d.andrei.21/"><img src="/icons/instagram 1.svg" alt="twitter-social-link"></a></li>
         </ul>
     </footer>
+    <script src="script.js"></script>
     </body>
 </html>
