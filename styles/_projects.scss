@@ -5,9 +5,10 @@
   @include flex(space-between, center, row);
   text-align: center;
   flex-wrap: wrap;
+  padding-bottom: 3rem;
 
   h2 {
-    margin: 5rem;
+    margin: 3rem;
     padding: 2rem 5rem;
   }
 }
@@ -17,8 +18,14 @@
   flex: 1 1 40rem;
   cursor: pointer;
 }
+
 .omnifood {
-  width: 100%;
+  flex: 1 1 10rem;
+  align-self: flex-start;
+}
+
+.omni {
+  border-radius: 20px;
 }
 
 .flip-card {
